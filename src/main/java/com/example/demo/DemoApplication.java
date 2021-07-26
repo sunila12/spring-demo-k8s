@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class DemoApplication {
 	@GetMapping("/")
 	public String hello(){
-	return "Hello, Your application is deployed into OpenShift";
+	return "Hello, Your application is deployed into OpenShift !!";
 	}
 
 	public static void main(String[] args) {
